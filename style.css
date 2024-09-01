@@ -5,11 +5,11 @@
 img {
   margin: 0 auto;
   object-fit: cover;
-  @media (min-width: 1280px) {
+  @media (min-width: 1000px) {
     width: 50%;
     max-height: 880px;
   }
-  @media (max-width: 1279px) {
+  @media (max-width: 999px) {
     width: 100%;
   }
 }
