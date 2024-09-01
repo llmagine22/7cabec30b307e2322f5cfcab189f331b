@@ -1,14 +1,19 @@
 * {
   display:block;
-  box-sizing: border-box;
   color: #fff;
 }
-img {
-  margin: 2rem auto 4rem;
-  @media (min-width: 1920px) {
-    width: 50%;
+body {
+  @media (min-width: 1919px) {
+  max-height: 800px;
   }
-  @media (max-width: 1919px) {
-    width: 100%
+}
+img {
+  margin: 0 auto;
+  @media (min-width: 1280px) {
+    width: 50%;
+    max-height: 900px;
+  }
+  @media (max-width: 1279px) {
+    width: 100%;
   }
 }
