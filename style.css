@@ -1,13 +1,14 @@
 * {
   display:block;
   box-sizing: border-box;
+  color: #fff;
 }
 img {
   margin: 2rem auto;
-  @media min-width: 1920 {
-    width: 50%
+  @media (min-width: 1920px) {
+    width: 50%;
   }
-  @media max-width: 1919 {
+  @media (max-width: 1919px) {
     width: 100%
   }
-    }
+}
