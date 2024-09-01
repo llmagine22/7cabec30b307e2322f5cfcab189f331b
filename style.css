@@ -2,11 +2,6 @@
   display:block;
   color: #fff;
 }
-body {
-  @media (min-width: 1919px) {
-  max-height: 800px;
-  }
-}
 img {
   margin: 0 auto;
   object-fit: cover;
